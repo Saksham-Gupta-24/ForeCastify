@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <section className="flex justify-center">
-      <footer className=" w-[100vw] bg-white dark:bg-gray-900 bottom-0  max-w-screen-md">
+      <footer className=" w-[100vw] bg-gray-900 dark:bg-gray-900 bottom-0  max-w-screen-md">
         <div className="mx-auto  max-w-screen-md p-4 py-6 lg:py-8">
           <div className="flex justify-between items-center">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
@@ -12,7 +12,7 @@ function Footer() {
             <div className="flex space-x-5 justify-end">
               <a
                 href="https://github.com/Saksham-Gupta-24"
-                className="text-gray-900 hover:text-gray-900 dark:hover:text-white dark:text-gray-300"
+                className="text-gray-100 hover:text-gray-100 dark:hover:text-white dark:text-gray-300"
               >
                 <svg
                   className="w-6 h-6"
@@ -30,7 +30,7 @@ function Footer() {
 
               <a
                 href="https://www.linkedin.com/in/saksham-gupta24/"
-                className="text-[#0077b5]  hover:text-gray-900 dark:hover:text-white"
+                className="text-[#0077b5]  hover:text-gray-100 dark:hover:text-white"
               >
                 {/* <!-- Linkedin --> */}
                 <svg
@@ -46,7 +46,7 @@ function Footer() {
               {/* instagram */}
               <a
                 href="https://instagram.com/_itzme.saksham_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
-                className="text-[#c13584] hover:text-gray-900 dark:hover:text-white"
+                className="text-[#c13584] hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
