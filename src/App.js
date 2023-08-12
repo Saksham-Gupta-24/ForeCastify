@@ -5,6 +5,7 @@ import TimeAndLocation from "./components/TimeAndLocation";
 import TemperatureAndDetails from "./components/TemperatureAndDetails";
 import Forecast from "./components/Forecast";
 import getFormattedWeatherData from "./Services/WeatherService";
+import Footer from "./components/Footer";
 import { useState } from "react";
 import { useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -41,23 +42,26 @@ function App() {
   };
 
   return (
-    <div
-      className={`mx-auto max-w-screen-md lg:mt-4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}
-    >
-      <TopButtons setQuery={setQuery} />
-      <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
+    <div>
+      <div
+        className={`mx-auto max-w-screen-md lg:mt-4 py-5 px-32 bg-gradient-to-br from-cyan-700 to-blue-700 h-fit shadow-xl shadow-gray-400 ${formatBackground()}`}
+      >
+        <TopButtons setQuery={setQuery} />
+        <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
 
-      {weather && (
-        <div>
-          <TimeAndLocation weather={weather} />
-          <TemperatureAndDetails weather={weather} />
+        {weather && (
+          <div>
+            <TimeAndLocation weather={weather} />
+            <TemperatureAndDetails weather={weather} />
 
-          <Forecast title="hourly forecast" items={weather.hourly} />
-          <Forecast title="daily forecast" items={weather.daily} />
-        </div>
-      )}
+            <Forecast title="hourly forecast" items={weather.hourly} />
+            <Forecast title="daily forecast" items={weather.daily} />
+          </div>
+        )}
 
-      <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
+        <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
+      </div>
+      <Footer />
     </div>
   );
 }
