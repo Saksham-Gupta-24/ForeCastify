@@ -7,7 +7,7 @@ function Footer() {
         <div className="mx-auto  max-w-screen-md p-4 py-6 lg:py-8">
           <div className="flex justify-between items-center">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2023.All Rights Reserved.
+              Developed by Saksham Gupta
             </span>
             <div className="flex space-x-5 justify-end">
               <a
@@ -59,6 +59,11 @@ function Footer() {
               </a>
             </div>
           </div>
+
+          {/* Add the new text here */}
+          <p className="text-sm text-gray-500 sm:text-center dark:text-gray-400 mt-2">
+            © 2023.All Rights Reserved.
+          </p>
         </div>
       </footer>
     </section>
