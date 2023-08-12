@@ -61,7 +61,7 @@ function Footer() {
           </div>
 
           {/* Add the new text here */}
-          <p className="text-sm text-gray-500 sm:text-center dark:text-gray-400 mt-2">
+          <p className="text-sm text-gray-500 text-center dark:text-gray-400 mt-2">
             © 2023.All Rights Reserved.
           </p>
         </div>
