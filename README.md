@@ -1,3 +1,20 @@
+# ForeCastify
+
+<div align="center">
+  <img width="64" height="64" src="https://img.icons8.com/arcade/64/partly-cloudy-rain.png" alt="partly-cloudy-rain"/>
+  
+</div>
+
+
+
+<p align="center">
+ <strong> <a href="https://www.linkedin.com/posts/saksham-gupta24_codeclause-weatherapp-weatherforecast-activity-7096360783378317312-udL9?utm_source=share&utm_medium=member_desktop">Live Demo Video</a></strong>
+  
+
+  
+     
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
