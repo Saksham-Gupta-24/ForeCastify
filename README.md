@@ -39,6 +39,36 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+## Demonstration 
+
+- Weather of Default City 
+
+![1](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/bf17eedf-c416-4fe5-9957-5c988627f236)
+
+![2](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/11aa4f15-b897-4181-84a6-3014ccead6cb)
+
+- Weather by cities mention on the top
+  
+![3](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/507786d8-d38e-42d7-8591-ca3294e7a9bc)
+
+- Weather by Searching the cities
+
+![4](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/47479921-99b5-4e93-a3ea-201f3e9b3cb1)
+
+- Present Location Weather
+
+![5](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/cc3904aa-d7ae-4030-81ae-04197de3c237)
+
+- °C to °F
+
+![6](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/df9cdfda-c40f-4b96-9e21-49876f6f9526)
+
+- Deployed in Netlify 
+
+![7](https://github.com/Saksham-Gupta-24/ForeCastify/assets/114461220/a8b6e4cc-8104-40cc-b132-4212741f028d)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
